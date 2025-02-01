@@ -1,0 +1,138 @@
+\documentclass{beamer}
+%
+% Choose how your presentation looks.
+%
+% For more themes, color themes and font themes, see:
+% http://deic.uab.es/~iblanes/beamer_gallery/index_by_theme.html
+%
+\mode<presentation>
+{
+  \usetheme{default}      % or try Darmstadt, Madrid, Warsaw, ...
+  \usecolortheme{default} % or try albatross, beaver, crane, ...
+  \usefonttheme{default}  % or try serif, structurebold, ...
+  \setbeamertemplate{navigation symbols}{}
+  \setbeamertemplate{caption}[numbered]
+} 
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\title[Your Short Title]{\textbf{\Huge SENSOR NETWORK}}
+\author{V Pavani:21b01a12i4:IT\\B Reshma:21b01a1216:IT\\P Sri Vyshnavi:21b01a5484:AI&DS\\ L Parimala Prasanna:22b05a5408:AI&DS\\S Kalyani:21b01a0251:EEE}
+\institute{\Large SVECW}
+\date{March 25,2023}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+% Uncomment these lines for an automatically generated outline.
+%\begin{frame}{Outline}
+%  \tableofcontents
+%\end{frame}
+
+\section{Python }
+
+\begin{frame}{\Huge Introduction about the project}
+
+\begin{itemize}
+\Large
+  \item A subset of sensors where each pair of sensors can communicate directly
+with each other (distance at most d). The goal is to choose as
+many sensors as possible, given their current locations represented
+as points in a two-dimensional plane, using Euclidean distance to
+measure the distance between two points.
+\end{itemize}
+
+\end{frame}
+
+\section{Some \LaTeX{} Examples}
+
+\subsection{Tables and Figures}
+
+\begin{frame}{\Huge Approach}
+
+\begin{itemize}
+\Large
+\item We used command line arguments to provide input
+\item math and sys modules are imported
+\item User defined functions are used
+\item We used Euclidean distance to measure the distance between two sensors
+
+\end{itemize}
+
+% Commands to include a figure:
+%\begin{figure}
+%\includegraphics[width=\textwidth]{your-figure's-file-name}
+%\caption{\label{fig:your-figure}Caption goes here.}
+%\end{figure}
+
+\end{frame}
+
+\subsection{Mathematics}
+\begin{frame}{\Huge Learnings}
+\Large
+We have learnt about how to pass command line arguments in VS code and ability to work collaboratively and productively with others.How to manage our time effectively and meet deadlines.
+We have learnt the usage of GitLab and LaTeX.
+
+
+    
+\end{frame}
+
+\begin{frame}{\Huge Challenges}
+\begin{itemize}
+\Large
+    \item Integration of code is difficult.
+    \item Indentation errors,data type errors.
+    \item We faced difficulty while using command line arguments in visual studio code
+\end{itemize}
+
+
+
+\end{frame}
+\begin{frame}{\Huge STATISTICS}
+\begin{itemize}
+\Large
+    \item The Python code has overall 50 lines.
+    \item The code has three user-defined functions.\\They are:\\
+    \hspace{0.8cm}1.command-input()\\
+    \hspace{0.8cm}2.distance()\\
+    \hspace{0.8cm}3.subset()\\
+    \item Built-in Modules:\\
+    \hspace{0.8cm}1.sys\\
+    \hspace{0.8cm}2.math\\
+    
+    
+\end{itemize}
+    
+\end{frame}
+\begin{frame}{\Huge Demo/Screenshots}
+\begin{figure}[htp]
+  \centering
+  \includegraphics[width=8cm]{samplecode.jpg}
+   \caption{Code of the project}
+   \label{fig:copy1}
+   \end{figure}
+
+    
+ \end{frame}
+\begin{frame}{\Huge Demo/Screenshots}
+\begin{figure}[htp]
+  \centering
+  \includegraphics[width=8cm]{output.jpg}
+   \caption{demo output }
+   \label{fig:output1}
+   \end{figure}
+
+    
+ \end{frame}
+\begin{frame}{}
+\centering
+\textbf{\Huge Thank You}
+    
+\end{frame}
+
+\end{document}
